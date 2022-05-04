@@ -1,0 +1,43 @@
+h2{
+	color:#B68911;
+}
+h3{
+	color:#B68911;
+}
+
+body{
+	background-image: linear-gradient(#E8F9FD,#F7F5F2);
+	text-align: center;
+}
+
+.hr{
+	color:#B68911;
+	border-top:0;
+	border-style:dashed;
+	border-width: 2px;
+}
+
+label{
+	width:30%;
+	display: inline-block;
+}
+.i4{
+	width: 20%;
+	display: inline-block;
+}
+img{
+	border-style: solid;
+	border-color: #B68911;
+}
+.phone{
+	border-radius: 30%;
+	border-style: solid;
+	border-color: #B68911;
+	height: 200px;
+}
+.laptop{
+	border-radius: 30%;
+	border-style: solid;
+	border-color: #B68911;
+	height: 200px;
+}

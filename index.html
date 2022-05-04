@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Treaky</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
+</head>
+<body class="text-center" style="font-family: 'Quicksand', sans-serif; font-weight: 300;padding-top: 10px;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: antiquewhite;position: fixed;width: 100%; margin-bottom: 20px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-family: 'Quicksand', sans-serif; font-weight: 500;">Treaky</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="display: flex; justify-content: right; align-items: center;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html" style="display: flex; justify-content: center; align-items: center;">About-us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr style="margin-top: 50px;">
+     <img src="laptop.jpeg" class="laptop">
+     <img src="L.jpeg" width="20%">
+     <img src="phone.jpeg" class="phone">
+     <h1 style="padding-top: 10px;">Treaky -<span style="font-family: 'Sacramento', cursive;"> The haven for tech solution!</span></h1>
+     <hr class="center">
+     <h2 style="font-family: 'Quicksand', sans-serif; font-weight: 500;">Do you need, help with your PC, Laptop, Phone?</h2>
+     <h2 style="font-family: 'Quicksand', sans-serif; font-weight: 500;">Don't worry we got you covered!</h2>
+     <hr class="center">
+     <form action="contact.php" method="post" target="_blank">
+		 <label for="name">Enter your name:</label>
+		 <input type="text" name="txtname" required id="txtname" class="i1">
+		 <br>
+		 <label for="mobile">Enter your mobile number:</label>
+		 <input type="text" name="txtmobile" required id="txtmobile" class="i2">
+		 <br>
+		 <label for="email">Enter your email ID:</label>
+		 <input type="text" name="txtemail" id="txtemail" class="i3">
+		 <br>
+		 <br>
+		 <input type="submit" value="Submit" class="i4">
+		 <br>
+    </form>
+    <hr class="center">
+    <div class="container">
+      <div class="row">
+        <div class="col" style="border-style: solid; border-color: #B68911;border-width: 2px;">
+          <strong>₹99/month</strong><br>
+          <span style="margin-left: 0%;">Onsite Service<img src="tick.png" width="22px" style="border: 0;"><br></span> 
+          <span style="margin-left: 0%;">24 hours response<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <span style="margin-left: 0%;">1 query per two week<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <button type="button" class="btn btn-outline-success" onclick="window.location = 'pay99.html'">Pay</button>
+        </div>
+        <div class="col" style="border-style: solid; border-color: #B68911;border-width: 2px;">
+          <strong>₹499/ 6 months</strong><br>
+          <span style="margin-left: 0%;">Onsite Service<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <span style="margin-left: 0%;">24 hours response<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <span style="margin-left: 0%;">1 query per week<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <span style="margin-left: 0%;">16% extra benefits<img src="tick.png" width="22px" style="border: 0;"><br></span>
+          <button type="button" class="btn btn-outline-success" onclick="window.location = 'pay499.html'">Pay</button>
+        </div>
+        <div class="col" style="border-style: solid ; border-color: #B68911;border-width: 2px; display: flex; justify-content: center; align-items: center;">
+          <button type="button" style="vertical-align: middle;" class="btn btn-outline-success"><h2>Register as a business</h2></button>
+        </div>
+      </div>
+    </div>
+    <hr class="center">
+    <h1 class="ty" style="font-size: 20px">Thank You! ❤️ For Visiting Treaky </h1>
+  
+</body>
+</html>
